@@ -104,4 +104,45 @@ Aquí hay algunas imagenes de las pruebas:
 </p>
 
 
+# API-CRUD 2
+
+## HERRAMIENTAS
+
+Las herrmientas utilizadas están en el archivo requirements.txt
+
+## PRUEBAS
+
+Hemos hecho diferentes pruebas sobre el código con pylint, coverage y trivy
+
+## Pylint
+
+<p align="center">Prueba con Pylint</p>
+<p align="center">
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/pylint.png" alt="Imagen de prueba de integración" />
+</p>
+
+
+<p align="center">Prueba con Coverage</p>
+<p align="center">
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/covergae.png" alt="Imagen de prueba de integración" />
+</p>
+
+
+<p align="center">Report de Coverage</p>
+<p align="center">
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/report-coverage.png" alt="Imagen de prueba de integración" />
+</p>
+
+
+<p align="center">HTML de Coverage</p>
+<p align="center">
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/html-coverage.png" alt="Imagen de prueba de integración" />
+</p>
+
+
+<p align="center">Prueba con Trivy</p>
+<p align="center">
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/trivy" alt="Imagen de prueba de integración" />
+</p>
+
 
