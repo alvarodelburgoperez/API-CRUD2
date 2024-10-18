@@ -39,3 +39,9 @@ htmlcov/
 /GITFLOW/
 /laboratorio/
 /proyecto-1/
+assets/
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg

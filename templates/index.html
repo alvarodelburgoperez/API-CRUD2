@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Hidrosaurios</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <h1>Lista de Hidrosaurios</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Peso</th>
+            <th>Color</th>
+            <th>Alimentación</th>
+            <th>Acciones</th>
+        </tr>
+        {% for hidrosaurio in hidrosaurios %}
+        <tr>
+            <td>{{ hidrosaurio.id }}</td>
+            <td>{{ hidrosaurio.name }}</td>
+            <td>{{ hidrosaurio.species }}</td>
+            <td>{{ hidrosaurio.weight }}</td>
+            <td>{{ hidrosaurio.color }}</td>
+            <td>{{ hidrosaurio.feeding }}</td>
+
+            <td>
+                <a href="{{ url_for('update', id=hidrosaurio.id) }}">Editar</a>
+                <a href="{{ url_for('delete', id=hidrosaurio.id) }}">Eliminar</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('create') }}">Agregar nuevo Hidrosaurio</a>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Hidrosaurio</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <h1>Editar Hidrosaurio</h1>
+    <form action="{{ url_for('update', id=hidrosaurio.id) }}" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" value="{{ hidrosaurio.name }}" required>
+        <br>
+
+        <label for="species">Especie:</label>
+        <input type="text" id="species" name="species" value="{{ hidrosaurio.species }}" required>
+        <br>
+
+        <label for="weight">Peso:</label>
+        <input type="number" id="weight" name="weight" value="{{ hidrosaurio.weight }}" required>
+        <br>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" value="{{ hidrosaurio.color }}" required>
+        <br>
+
+        <label for="feeding">Alimentación:</label>
+        <input type="text" id="feeding" name="feeding" value="{{ hidrosaurio.feeding }}" required>
+        <br>
+
+        <button type="submit">Actualizar</button>
+    </form>
+    <a href="{{ url_for('index') }}">Regresar a la lista</a>
+</body>
+</html>
