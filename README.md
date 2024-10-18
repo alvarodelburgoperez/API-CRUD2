@@ -55,7 +55,7 @@ estando en esta ruta:
 ```
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/locustfile_comando.png" alt="Imagen de comando de Locust" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/locustfile_comando.png" alt="Imagen de comando de Locust" />
 </p>
 
 
@@ -63,14 +63,14 @@ Para realizar esta prueba es necesario tener en ejecución la aplicación en una
 Al abrir la dirección de ese comando (http://0.0.0.0:8089/) se nos abre una ventana en el navegador de Locust donde podremos elegir el número de usuarios simultáneos, etc
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/locustfile_conf.png" alt="Imagen configuración en Locust" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/locustfile_conf.png" alt="Imagen configuración en Locust" />
 </p>
 
 
 Una vez tenemos todos los parámetros ajustados se nos muestra esto.
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/locustfile.png" alt="Imagen de rendimiento en Locust" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/locustfile.png" alt="Imagen de rendimiento en Locust" />
 </p>
 
 
@@ -90,17 +90,17 @@ Aquí hay algunas imagenes de las pruebas:
 
 <p align="center">Prueba unitaria</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/prueba unitaria bien.png" alt="Imagen de prueba unitaria" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/prueba unitaria bien.png" alt="Imagen de prueba unitaria" />
 </p>
 
 <p align="center">Prueba de integración</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/prueba integracion.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/prueba integracion.png" alt="Imagen de prueba de integración" />
 </p>
 
 <p align="center">Todas las pruebas</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/prueba seguridad.png" alt="Imagen de prueba de seguridad" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/prueba seguridad.png" alt="Imagen de prueba de seguridad" />
 </p>
 
 
@@ -118,31 +118,31 @@ Hemos hecho diferentes pruebas sobre el código con pylint, coverage y trivy
 
 <p align="center">Prueba con Pylint</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/pylint.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/pylint.png" alt="Imagen de prueba de integración" />
 </p>
 
 
 <p align="center">Prueba con Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/covergae.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/covergae.png" alt="Imagen de prueba de integración" />
 </p>
 
 
 <p align="center">Report de Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/report-coverage.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/report-coverage.png" alt="Imagen de prueba de integración" />
 </p>
 
 
 <p align="center">HTML de Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/html-coverage.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/html-coverage.png" alt="Imagen de prueba de integración" />
 </p>
 
 
 <p align="center">Prueba con Trivy</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD/blob/main/assets/trivy" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/trivy" alt="Imagen de prueba de integración" />
 </p>
 
 
