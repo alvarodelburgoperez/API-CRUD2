@@ -1,0 +1,7 @@
+{
+  "prueba_unitaria.py": true,
+  "test_prueba_funcional.py": true,
+  "test_prueba_integracion.py": true,
+  "test_prueba_unitaria.py": true,
+  "test_seguridad.py": true
+}

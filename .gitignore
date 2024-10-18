@@ -1,0 +1,41 @@
+# Ignorar archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar entornos virtuales
+env/
+venv/
+.env
+.venv
+
+# Ignorar bases de datos
+*.db
+
+# Ignorar archivos de cobertura
+.coverage
+htmlcov/
+
+# Ignorar otros archivos innecesarios
+*.log
+*.sqlite
+
+# Ignorar archivos y carpetas de configuración del sistema
+/.asdf/
+/.cache/
+/.conda/
+/.config/
+/.gitconfig/
+/.gnupg/
+/.local/
+/.npm/
+/.pki/
+/.sudo_as_admin_successful
+/.terraform.d/
+/.tool-versions/
+/.vscode/
+/snap/
+/Descargas/
+/Documentos/
+/GITFLOW/
+/laboratorio/
+/proyecto-1/
