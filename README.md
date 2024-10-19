@@ -118,31 +118,31 @@ Hemos hecho diferentes pruebas sobre el código con pylint, coverage y trivy
 
 <p align="center">Prueba con Pylint</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/pylint.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/pylint.png" alt="Imagen de prueba de pylint" />
 </p>
 
 
 <p align="center">Prueba con Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/covergae.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/coverage.png" alt="Imagen de prueba de coverage" />
 </p>
 
 
 <p align="center">Report de Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/report-coverage.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/report-coverage.png" alt="Imagen de prueba de report de coverage" />
 </p>
 
 
 <p align="center">HTML de Coverage</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/html-coverage.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/html-coverage.png" alt="Imagen de prueba de html de coverage" />
 </p>
 
 
 <p align="center">Prueba con Trivy</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/trivy.png" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/trivy.png" alt="Imagen de prueba de trivy" />
 </p>
 
 
@@ -166,12 +166,17 @@ Las herramientas utilizadas están en el archivo requirements.txt, solo hemos a�
 
   ```
 
-La clave-id la obetenmos ejecutando el comando:
+  <p align="center">Comando encriptación SOPS</p>
+  <p align="center">
+      <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/comando-sops.png" alt="Imagen de comando de encriptación SOPS" />
+  </p>
 
-```
-gpg --list-keys
+    La clave-id la obetenemos ejecutando el comando:
 
-```
+    ```
+    gpg --list-keys
+
+    ```
 
 - Hemos subido los cambios al repositorio
 
