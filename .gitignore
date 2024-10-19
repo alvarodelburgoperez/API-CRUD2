@@ -45,6 +45,8 @@ include/
 lib/
 lib64
 pyvenv.cfg
-
-
 secrets.yaml
+gpg/
+sops-v3.9.1.checksums.pem
+sops-v3.9.1.checksums.sig
+sops-v3.9.1.checksums.txt
