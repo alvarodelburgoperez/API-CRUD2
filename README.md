@@ -142,7 +142,7 @@ Hemos hecho diferentes pruebas sobre el código con pylint, coverage y trivy
 
 <p align="center">Prueba con Trivy</p>
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/trivy" alt="Imagen de prueba de integración" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/API-CRUD2/blob/main/assets/trivy.png" alt="Imagen de prueba de integración" />
 </p>
 
 
