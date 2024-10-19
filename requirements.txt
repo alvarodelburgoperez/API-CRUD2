@@ -2,3 +2,4 @@ Flask
 Flask-SQLAlchemy
 pylint  # O black/flake8 según el que elijas
 coverage
+python-dotenv

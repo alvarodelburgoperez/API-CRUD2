@@ -2,11 +2,18 @@ from flask import Flask, request, redirect, url_for, render_template, abort, fla
 from flask_sqlalchemy import SQLAlchemy
 import os
 
+from dotenv import load_dotenv
+load_dotenv()  # Cargar las variables desde .env
+
+
+
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+
+app.secret_key = os.getenv('FLASK_SECRET_KEY')
+
 
 # Configurar la base de datos
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Inicializar SQLAlchemy

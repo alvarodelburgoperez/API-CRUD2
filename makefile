@@ -12,3 +12,9 @@ coverage-report:
 
 vuln-scan:
     trivy filesystem .
+
+encrypt:
+	sops --encrypt --pgp <PGP_KEY_ID> secrets.yaml > secrets.enc.yaml
+
+decrypt:
+	sops --decrypt secrets.enc.yaml > secrets.yaml
