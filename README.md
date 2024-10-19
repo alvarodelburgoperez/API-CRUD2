@@ -146,3 +146,34 @@ Hemos hecho diferentes pruebas sobre el código con pylint, coverage y trivy
 </p>
 
 
+
+# API-CRUD 3
+
+## HERRAMIENTAS
+
+Las herramientas utilizadas están en el archivo requirements.txt, solo hemos añadido la herramienta SOPS
+
+## EJECUCIÓN
+
+- Hemos instalado python-dotenv para crearun archivo .env en la raíz del directorio para alamcenar las variables de entorno de la aplicación
+
+- Hemos creado el archivo secrets.yaml con usuario y contraseña falsos para cifrarlo con SOPS
+
+- Hemos instalado SOPS, hemos descargado la clave PGP y hemos cifrado el archivo secrets.yaml con este comando:
+
+  ```
+  sops --encrypt --pgp <clave-id> secrets.yaml > secrets.enc.yaml
+
+  ```
+
+La clave-id la obetenmos ejecutando el comando:
+
+```
+gpg --list-keys
+
+```
+
+- Hemos subido los cambios al repositorio
+
+
+
