@@ -54,21 +54,15 @@ gpg/
 sops-v3.9.1.checksums.pem
 sops-v3.9.1.checksums.sig
 sops-v3.9.1.checksums.txt
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Carpeta de pruebas y documentación no necesaria
+/tests/
+docs/
 
 # Ignorar archivos generados por Node.js (si aplica)
 node_modules/
 
-# Archivos generados por Projen
-.projen/
-.projenrc.js
-.projenrc.py
-.projen/files.json
-.projen/tasks.json
-
-# Ignorar archivos de dependencias y build
-dist/
-build/
-*.egg-info/
-.eggs/
-pip-wheel-metadata/
-.projen/
